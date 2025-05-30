@@ -1,0 +1,91 @@
+# 認証情報とセンシティブなファイル
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 出力ファイル
+*.csv
+*.xlsx
+*.json
+output/
+data/
+logs/
+
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ChromeDriver
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
+
+# 一時ファイル
+*.tmp
+*.temp
+*.log
+
+# Selenium関連
+selenium-debug.log
+ghostdriver.log
+
+# パッケージファイル
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# 設定ファイル
+config.ini
+settings.json
